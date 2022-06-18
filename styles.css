@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    overflow: visible;
+}
+button:hover{
+    cursor: pointer;
+}
+.logo1{
+    float: left;
+    margin: 20px 100px 20px 50px;
+}
+.try{
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    float: right;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 5px 5px 5px grey;;
+}
+.main1{
+    height:600px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color:  hsl(193, 100%, 96%);
+    position: static;
+}
+.text{
+    width: 40%;
+    float: left;
+   clear: left;
+
+}
+.title1{
+    margin: 100px 30px 0 50px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+.par1{
+    margin: 50px 30px 0 50px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 400;
+}
+
+.mock-up{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.get{
+    float: left;
+    clear: left;
+    width: 250px;
+    padding: 13px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    margin: 30px;
+    background-color:hsl(322, 100%, 66%) ;
+    color: #fff;
+}
+.get:hover{
+    background-color: hsla(322, 100%, 66%,0.7) ;
+}
+.sub1{
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text2{
+    width: 50%;
+    float: left;
+   clear: left;
+   margin-top: 50px;
+   margin-right: 50px;
+   font-family:'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.text2 > .par1{
+    margin-top: 20px;
+    color: hsl(208, 11%, 55%);
+    font-family: 'Open Sans'sans-serif;
+    font-weight: 400;
+
+}
+.sub1 > img{
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+}
+#bridger{
+    position: relative;
+    margin-bottom: 70px;
+}
+.bridge{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50vw;
+    padding: 20px;
+    margin: 45px auto 0 auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+footer{
+    margin-top: 250px;
+    position: relative;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 400;
+}
+.bridge-text{
+    width: 100%;
+    margin: auto 5%;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+.bridge > .get{
+    width: 250px;
+    margin: 45px 25%;
+    align-items: center;
+    justify-content: center;
+}
+.brand-logo{
+    width: 100% ;
+    padding: 100px 100px 50px 100px;
+}
+.others{
+    display: flex;
+    padding: 10px 100px;
+}
+.footer-text{
+    width: 33.3%;
+}
+.footer-text > .location{
+    display: block;
+    float: left;
+    margin: 60px 20px 120px 0;
+}
+.footer-text > img{
+    display: block;
+    float: left;
+    margin: 20px 20px -25px 0;
+}
+.footer-text> p {
+    width: 90%;
+    float: right;
+    padding:10px 30px 10px 0;
+    margin-bottom: 0;
+}
+.link{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 25px;
+   
+}
+ul{
+    list-style: none;
+    
+   
+}
+li{
+    width: 50%;
+    float: left;
+    padding: 5px 5px;
+}
+li a{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.icons{
+    font-size: 50px;
+    width: 33.3%;
+    display: flex;
+    
+}
+.tw,.fb,.ig{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    padding: 15px;
+    
+}
+.tw:hover, .fb:hover, .ig:hover{
+    color: hsl(322, 100%, 66%);
+    border-color:hsl(322, 100%, 66%) ;
+}
+.copyright{
+    margin-left: 70%;
+}
+@media only screen and (max-width:375px){
+    body{
+        font-size: 16px;
+    }
+    .main1{
+        background-image: url(./images/bg-hero-mobile.svg);
+        height: 870px;
+    }
+    .logo1{
+        width:50%;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .try{
+        width: 25%;
+        margin: 10px;
+    }
+    .text{
+        float:none;
+        width: 100%;
+        padding: 5px;
+    }
+    .tiitle{
+        width:100%;
+        margin: 20px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .mock-up{
+        width: 90%;
+        height: 250px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sub1{
+        width: 90%;
+        height: 600px;
+    }
+    .text2{
+        float: none;
+        margin: 0px;
+        width: 100%;
+    }
+    .sub1 >img{
+        float: none;
+        margin: 50px auto 0 auto;
+        width: 90%;
+        height: 250px;
+    }
+    .bridge{
+        font-size: 12px;
+        width: 90%;
+        margin: 10px auto 0 auto;   
+        left:15px;
+    }
+    .bridge-text{
+        width: 90%;
+        margin: auto px;
+      
+    }
+    .bridge > .get{
+        width: 200px;
+        margin: 25px;
+      
+    }
+    footer{
+        margin-top: 200px;
+    }
+    .brand-logo{
+        width: 100% ;
+        padding: 100px 100px 50px 10px;
+    }
+    .others{
+        padding: 10px 10px;
+        display: block;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .footer-text > .location{
+        display: block;
+        float: left;
+        margin: 60px 20px 120px 0;
+    }
+    .footer-text > img{
+        display: block;
+        float: left;
+        margin: 20px 20px -25px 0;
+    }
+    .footer-text> p {
+        width: 90%;
+        float: right;
+        padding:10px 30px 10px 0;
+        margin-bottom: 0;
+    }
+    .link{
+        width: 100%;
+        height: 25px;  
+        margin-left: 0px;
+    }
+    li{
+        width: 100%;
+        float: none;
+        margin: 20px auto auto 0px;
+    }
+    .copyright{
+       margin-left:25%
+    }
+
+}
+    
