@@ -8,6 +8,10 @@ body{
     font-weight: 700;
     font-size: 18px;
     overflow: visible;
+    transition: width 0.4s;
+}
+.logo1:hover{
+    width: 300px;
 }
 button:hover{
     cursor: pointer;
@@ -27,6 +31,9 @@ button:hover{
     background-color: #fff;
     z-index: 1;
     box-shadow: 5px 5px 5px grey;;
+}
+.try:hover{
+    width: 200px;
 }
 .main1{
     height:600px;
@@ -71,6 +78,7 @@ button:hover{
 }
 .get:hover{
     background-color: hsla(322, 100%, 66%,0.7) ;
+    width: 300px;
 }
 .sub1{
     width: 80%;
@@ -226,7 +234,7 @@ li a:hover {
 .copyright{
     margin-left: 70%;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:375px){
     body{
         font-size: 16px;
     }
